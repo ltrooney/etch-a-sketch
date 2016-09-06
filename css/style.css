@@ -1,0 +1,15 @@
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 3px dashed #000;
+}
+
+.box {
+	background-color: #f2f2f2;
+	width: 45px;
+	height: 45px;
+	margin: 0;
+}
+.fill {
+	background-color: #000;
+}
