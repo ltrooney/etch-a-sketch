@@ -6,9 +6,8 @@ table {
 
 .box {
 	background-color: #f2f2f2;
-	width: 45px;
-	height: 45px;
 	margin: 0;
+	border: 1px solid black;
 }
 .fill {
 	background-color: #000;
