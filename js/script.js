@@ -37,11 +37,7 @@ $(document).ready(function() {
 
 	$(document).on({
     	mouseenter: function () {
-    		if(randomRGBMode) {
-    			$(this).css("background-color", randomRGB());
-    		} else {
-    			$(this).addClass("fill");	
-    		} 	
+    		randomRGBMode ? $(this).css("background-color", randomRGB()) : $(this).addClass("fill");	
     	}
 	}, 'td');
 	
